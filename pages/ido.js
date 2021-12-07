@@ -61,7 +61,11 @@ export default function Ido() {
         </Flex>
       </Stack>
 
-      <Stack textAlign="center" spacing="20px" w="800px">
+      <Stack
+        textAlign="center"
+        spacing="20px"
+        w={{ base: "100%", md: "800px" }}
+      >
         <Box color="#fff">
           <Text fontSize="26px">Countdown to IDO</Text>
         </Box>
