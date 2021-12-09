@@ -48,7 +48,7 @@ const Home = () => (
         color="#fff"
         fontWeight="normal"
         justify="space-around"
-        w="100%"
+        w="90%"
         flexWrap="wrap"
       >
         <Stack spacing="40px" maxW="500px" mb="10">
