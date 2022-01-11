@@ -15,10 +15,10 @@ const Subscriber = () => {
   });
 
   return (
-    <Box w="90%" bg={Colors.slight_dark} p="10" rounded="xl">
+    <Box w="96%" bg={Colors.slight_dark} p="5" rounded="xl">
       <VStack spacing="10">
         <Text
-          maxW="550px"
+          maxW="600px"
           fontSize="40px"
           fontWeight="bold"
           color={Colors.white}
@@ -28,7 +28,7 @@ const Subscriber = () => {
         </Text>
         <Text
           maxW="800px"
-          fontSize="19px"
+          fontSize="18px"
           color={Colors.white}
           textAlign="center"
         >

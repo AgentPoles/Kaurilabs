@@ -3,6 +3,7 @@ import React from "react";
 import Colors from "../utils/useColor";
 import Footer from "./Footer";
 import Navbar from "./Navbar";
+import UpdatedNavbar from "./UpdatedNavbar";
 
 export default function Layout({ children }) {
   return (
@@ -14,7 +15,7 @@ export default function Layout({ children }) {
       fontSize="20px"
       fontWeight="medium"
     >
-      <Navbar />
+      <UpdatedNavbar />
       <Container maxW="container.lg" py="150px">
         {children}
       </Container>

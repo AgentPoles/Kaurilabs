@@ -6,9 +6,10 @@ export default function Logo() {
   return (
     <Link href="/">
       <Image
-        src={"/assets/logo.png"}
+        src={"/assets/klogo.png"}
         alt="Kauri"
-        w="48px"
+        w="120px"
+        maxW={["80px", "80px", "100px"]}
         objectFit="contain"
       />
     </Link>
@@ -17,10 +18,10 @@ export default function Logo() {
 
 const BigKauriImage = () => (
   <Image
-    src={"/assets/logo.png"}
+    src={"/assets/klogo.png"}
     alt="Kauri"
-    w="40%"
-    maxW="150px"
+    w="300px"
+    maxW="300px"
     objectFit="contain"
   />
 );

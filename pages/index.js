@@ -7,6 +7,7 @@ import { BigKauriImage } from "../components/Logo";
 import Blub from "../components/Blub";
 import Subscriber from "../components/Subscriber";
 import { createBreakpoints } from "@chakra-ui/theme-tools";
+import bga from "../public/assets/klogo.png";
 
 import {
   heading_one_text,
@@ -24,14 +25,16 @@ const Home = () => {
     "2xl": "96em",
   });
   return (
-    <Stack spacing="100px" align="center">
-      <Stack spacing="40px" textAlign="center" align="center">
-        <Stack textAlign="center" align="center">
+    <Stack spacing="120px" align="center">
+      <Stack spacing="25px" textAlign="center" align="center" p={10}>
+        <Stack textAlign="center">
           <Box color="#fff">
             <Text fontSize="26px">Welcome to</Text>
-            <Heading fontSize="80px">KAURI IDO</Heading>
+            <Heading fontSize={{ base: "65px", md: "75px", lg: "80px" }}>
+              KAURI IDO
+            </Heading>
           </Box>
-          <Text maxW="550px" fontSize="20px">
+          <Text maxW="600px" fontSize="20px">
             KauriLabs makes launching on Solana easy with a token minting lab, a
             launchpad and a dedicated DEX for all listings
           </Text>
@@ -59,12 +62,13 @@ const Home = () => {
           justify="space-around"
           w="90%"
           flexWrap="wrap"
+          // bgGradient="linear(#070B20, #290948, #290948,#290948,#290948, #070B20)"
         >
           <Stack spacing="40px" maxW="500px" mb="10">
             <Stack>
-              <Box maxW={["50%", "60%"]} color="#fff">
-                <Heading fontSize={{ base: "48px", md: "48px", lg: "56px" }}>
-                  What is Kauri Labs
+              <Box maxW={["60%", "65%"]} color="#fff">
+                <Heading fontSize={{ base: "45px", md: "50px", lg: "56px" }}>
+                  What is Kauri Labs?
                 </Heading>
               </Box>
               <Text maxW="550px" fontSize="20px">
@@ -77,6 +81,7 @@ const Home = () => {
               size="lg"
               variant="outline"
               borderRadius="sm"
+              textColor={Colors.white}
               borderColor={Colors.primary}
               color={Colors.white}
               _active={{ bg: `${Colors.primary}`, color: Colors.dark }}
@@ -108,9 +113,11 @@ const Home = () => {
         </SimpleGrid>
       </Stack>
 
-      <Stack textAlign="center" align="center" w="100%" spacing="40px">
+      <Stack textAlign="center" align="center" w="90%" spacing="40px">
         <Stack color="#fff">
-          <Heading fontSize="60px">KAURI ECOSYSTEM</Heading>
+          <Heading fontSize={{ base: "56px", md: "56px", lg: "60px" }}>
+            KAURI ECOSYSTEM
+          </Heading>
           <Text maxW="550px" fontSize="15px" color={Colors.text}>
             a brief note about the Kauri Ecosystem
           </Text>

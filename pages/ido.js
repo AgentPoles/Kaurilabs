@@ -145,16 +145,18 @@ export default function Ido() {
           <FAQCard />
         </Accordion>
       </Stack>
-
-      <Text
-        bgGradient="linear(#42F489, #857FF6)"
-        bgClip="text"
-        fontSize="6xl"
-        pt="100px"
-        fontWeight="extrabold"
-      >
-        JOIN OUR COMMUNITY
-      </Text>
+      <Stack>
+        <Text
+          bgGradient="linear(#42F489, #857FF6)"
+          bgClip="text"
+          fontSize="6xl"
+          pt="100px"
+          fontWeight="extrabold"
+          textAlign={"center"}
+        >
+          JOIN OUR COMMUNITY
+        </Text>
+      </Stack>
     </Stack>
   );
 }
